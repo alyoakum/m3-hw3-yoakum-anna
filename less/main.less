@@ -1,21 +1,59 @@
 @import "variables";
 
-.container {
-  background: @yellow-primary;
-  width: 1800px;
-}
-
+/* Google Font */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/* Mix-ins */
+
+button{
+.button-style();
+border-radius: 8px;
+}
+
+h2{
+  .headings();
+}
+
+p{
+  .content();
+}
+
+/* Nesting */
 ul{
   li{
     span{
       color: @red-primary;
       text-transform: uppercase;
       font-weight: 500;
+
     }
   }
 }
+
+ul{
+  li{
+  display: inline;
+  padding-right: 20px;
+  .button-style();
+  text-transform: none;
+
+    }
+  }
+
+h2{
+  .or{
+    text-transform: lowercase;
+    color: @black-text;
+     }
+  }
+
+h2{
+  span{
+    color:@red-primary;
+      }
+  }
+
+/* Misc */
 
 nav{
   background: @yellow-primary;
@@ -23,38 +61,13 @@ nav{
   padding:10px;
 }
 
-ul{
-  li{
-  display: inline;
-  padding-right: 10px;
-  padding-right: 20px;
-  .button-style()
-    }
-  }
 
-  .logo{
-  position: absolute;
-  z-index: 1;
-  top: 80px;
-      left: 80px;
-}
-#banner{
-  position: relative;
-      top: 0;
-      left: 0;
-    }
 .container{
   padding-top: 100px;
 }
 
-button{
-.button-style();
-border-radius: 8px;
-}
-footer{
-  height: 100px;
-  background:@black-secondary;
-}
-.col-8{
+
+#bob{
   background: @white-secondary;
+  padding: 50px;
 }

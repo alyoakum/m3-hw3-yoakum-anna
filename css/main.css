@@ -22,32 +22,8 @@
   color: #050500;
   font-family: Roboto;
 }
-/*example of nesting*/
-ul li span {
-  color: #ee252f;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-ul li {
-  display: inline;
-  padding-right: 20px;
-  background: #f8df1f;
-  font-family: Roboto;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 500;
-  padding: 10px;
-  margin-bottom: 100px;
-  text-transform: none;
-}
-h2 .or {
-  text-transform: lowercase;
-  color: #050500;
-}
-h2 span {
-  color: #ee252f;
-}
-/*Example of Mix-ins*/
+
+/* Mix-ins */
 button {
   background: #f8df1f;
   font-family: Roboto;
@@ -73,6 +49,33 @@ p {
   font-family: Roboto;
 }
 
+/* Nestings */
+ul li span {
+  color: #ee252f;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+ul li {
+  display: inline;
+  padding-right: 20px;
+  background: #f8df1f;
+  font-family: Roboto;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px;
+  margin-bottom: 100px;
+  text-transform: none;
+}
+h2 .or {
+  text-transform: lowercase;
+  color: #050500;
+}
+h2 span {
+  color: #ee252f;
+}
+
+/* Misc */
 nav {
   background: #f8df1f;
   width: 2000px;
