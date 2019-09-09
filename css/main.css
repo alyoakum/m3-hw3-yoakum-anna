@@ -42,7 +42,7 @@ h2 {
   font-weight: 500;
 }
 p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: lowercase;
   color: #050500;
@@ -76,15 +76,36 @@ h2 span {
 }
 
 /* Misc */
+
 nav {
   background: #f8df1f;
   width: 2000px;
   padding: 40px;
 }
 .container {
-  padding-top: 100px;
+  padding-top: 80px;
+  width: 100%;
 }
+
+footer {
+  background: #000;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  border-top: 5px solid #F8DF1F;
+}
+
+footer img {
+  width: 20%;
+  min-width: 300px;
+  padding: 20px;
+}
+
 #bob {
   background: #f3f3f3;
   padding: 50px;
+}
+
+#bob img {
+  padding: 30px 50px 20px 50px;
 }
