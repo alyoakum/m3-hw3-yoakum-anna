@@ -8,6 +8,24 @@
   padding: 10px;
   margin-bottom: 100px;
 }
+
+.header-img {
+  position: relative;
+  width: 100%;
+}
+
+.header-img img {
+  width: 100%;
+  height: auto;
+}
+
+.header-img button {
+  position: absolute;
+top: 75%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
 .headings {
   font-size: 30px;
   color: #050500;
@@ -30,7 +48,7 @@ button {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 500;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   margin-bottom: 100px;
   border-radius: 8px;
 }
@@ -84,7 +102,7 @@ nav {
 }
 .container {
   padding-top: 80px;
-  width: 100%;
+  width: 2000px;
 }
 
 footer {
